@@ -2,7 +2,7 @@ import axios from "axios";
 import React, { useState, useEffect } from "react";
 import { Link, useParams } from "react-router-dom";
 import Loading from "../Loading";
-
+const apiUrl = import.meta.env.VITE_BACKEND_API
 const CarsDetail = () => {
   const { id } = useParams();
   const [cars, setCars] = useState([]);
@@ -12,7 +12,7 @@ const CarsDetail = () => {
   const fetchCarById = async () => {
     setLoading(true);
     try {
-      const res = await axios.get(`http://localhost:5000/car/get/${id}`);
+      const res = await axios.get(`${apiUrl}/car/get/${id}`);
       setCars([res.data.car]);
     } catch (err) {
       setError("Failed to fetch car data.");
@@ -24,7 +24,7 @@ const CarsDetail = () => {
   const fetchAllCars = async () => {
     setLoading(true);
     try {
-      const res = await axios.get("http://localhost:5000/car/get");
+      const res = await axios.get(`${apiUrl}/car/get`);
       setCars(res.data.cars || []);
     } catch (err) {
       setError("Failed to fetch car data.");
