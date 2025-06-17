@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/logo.png" alt="Gearix Logo" width="150" />
+  <img src="public/images/gearixLogo.png" alt="Gearix Logo" width="150" />
 </p>
 
 <h1 align="center">🚗 Gearix</h1>
@@ -65,8 +65,6 @@ npm install
 npm start
 
 3. Frontend Setup
-```bash
 
-cd ../frontend
 npm install
 npm run dev
