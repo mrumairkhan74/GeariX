@@ -1,12 +1,72 @@
-# React + Vite
+<p align="center">
+  <img src="assets/logo.png" alt="Gearix Logo" width="150" />
+</p>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<h1 align="center">🚗 Gearix</h1>
 
-Currently, two official plugins are available:
+<p align="center">
+  A full-stack car marketplace web app where users can explore, view details, add cars to cart, and place orders.
+</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<p align="center">
+  <img src="https://img.shields.io/badge/Frontend-React-blue?logo=react" />
+  <img src="https://img.shields.io/badge/Backend-Node.js-green?logo=node.js" />
+  <img src="https://img.shields.io/badge/Database-MongoDB-brightgreen?logo=mongodb" />
+  <img src="https://img.shields.io/badge/API-Express.js-lightgrey?logo=express" />
+  <img src="https://img.shields.io/badge/Cloud-Cloudinary-yellow?logo=cloudinary" />
+  <img src="https://img.shields.io/badge/CSS-Tailwind-blue?logo=tailwindcss" />
+</p>
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🔧 Features
+
+- 🔐 User authentication (Login / Register)
+- 🚘 Browse cars by category
+- 📄 Detailed car pages
+- ❤️ Add/remove cars from cart
+- 🛒 Place orders
+- 📷 Image upload via Cloudinary
+- 📱 Fully responsive UI
+- ⚙️ RESTful API built with Node.js and MongoDB
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend:
+- React.js
+- React Router DOM
+- Tailwind CSS
+- Axios
+- React Toastify
+
+### Backend:
+- Node.js
+- Express.js
+- MongoDB + Mongoose
+- Multer
+- Cloudinary
+
+---
+
+## 📦 Installation
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/yourusername/gearix.git
+cd gearix
+
+2. Backend SetUp
+
+cd backend
+npm install
+npm start
+
+3. Frontend Setup
+```bash
+
+cd ../frontend
+npm install
+npm run dev
