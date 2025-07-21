@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://images-wixmp-530a50041672c69d335ba4cf.wixmp.com/templates/image/cc4f1f1d2d3e4d7f9e0f1a2b3c4d5e6f.png" alt="Gearix Logo" width="150" />
+  <img src="public/images/gearixLogo.png" alt="Gearix Logo" width="150" />
 </p>
 
 <h1 align="center">🚗 Gearix</h1>
